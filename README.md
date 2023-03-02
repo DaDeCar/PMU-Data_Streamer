@@ -2,7 +2,7 @@
 
 ### Overview
 
-Built a full project (back – frontend) which simulates a physical electrical equipment called “PMU”. 
+Built a full project (back – frontend) which simulates a physical electrical equipment called “PMU” - Phasor Measuremet Units. 
 
 This project consists of a PMU simulator written in python that generated random synchrophasors (measurements of current and voltage with a GPS tag) according to the IEEE C37.118.2 standard and streamed it to an IP address using UDP protocol. 
 
