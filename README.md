@@ -10,6 +10,13 @@ This work was designed to test servers that receive big data of electrical measu
 
 The project meant an improvement for the customers (server’s owner) because they no longer depended on physical equipment that generates the labeled measurements. 
 
+Program workflow:
+
+1. The user enters to the website and configure the requeriments for the simulated syncrophasors (amplitude, phase, frequency, rate of 
+
+The python program generates simulated syncrophasor introducing amplitude, phase, and frequency noise, and generating a timestamp for each of its.
+
+
 
 
   
