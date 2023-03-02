@@ -37,12 +37,12 @@ The PMU Data Streamer was tested using PMU Connection Tester (https://github.com
     
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20streamer.jpg)
   
-### Screenshot of the Configuration frame:
+### Screenshot of the Configuration frame (CF):
      Hexa data frame which configurates PMU COnnection Tester program 
     
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/CF.jpg)  
   
-### Screenshot of the Data frame:
+### Screenshot of the Data frame (DF):
     Hexa data frame sended 10-50 or 100 times/s which simulates the digitalized synchrophasor 
     
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/DF.jpg)  
