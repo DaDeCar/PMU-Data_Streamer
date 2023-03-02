@@ -10,16 +10,23 @@ This work was designed to test servers that receive big data of electrical measu
 
 The project meant an improvement for the customers (server’s owner) because they no longer depended on physical equipment that generates the labeled measurements. 
 
-Program workflow:
 
-1. The user enters to the website and configure the requeriments for the simulated syncrophasors (amplitude, phase, frequency, rate of 
+### Program workflow:
 
-The python program generates simulated syncrophasor introducing amplitude, phase, and frequency noise, and generating a timestamp for each of its.
+1. The user enters to the website and configure the requeriments for the syncrophasors (amplitude, phase, frequency, frames per second) and configures a IP adress in which he/she will receive the simulated data. 
+
+2. The python program generates simulated syncrophasors introducing amplitude, phase, and frequency noise, and generating a timestamp for each of its.
+
+3. The program sends via UDP the Configuration Frame (CF) to the destination server, and then starts to send the Data Frames (DF).
 
 
+### Testing
+
+The PMU Data Streamer was tested using PMU Conection Tester (https://github.com/GridProtectionAlliance/PMUConnectionTester) as a receiving server.
 
 
-  
+## Screenshots
+
     
 ### Main page of the project:
     
@@ -30,12 +37,12 @@ The python program generates simulated syncrophasor introducing amplitude, phase
     
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20streamer.jpg)
   
-### Capture of the Configuration frame:
+### Screenshot of the Configuration frame:
      Hexa data frame which configurates PMU COnnection Tester program 
     
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/CF.jpg)  
   
-### Capture of the Data frame:
+### Screenshot of the Data frame:
     Hexa data frame sended 10-50 or 100 times/s which simulates the digitalized synchrophasor 
     
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/DF.jpg)  
