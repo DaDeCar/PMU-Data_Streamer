@@ -13,31 +13,24 @@ The project meant an improvement for the customers (server’s owner) because th
     
 ### Main page of the project:
     
-    ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20home.jpg)
+  ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20home.jpg)
     
     
 #### LightGBM classifier results:
     
     
-    ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20home2.jpg)
-    
-    ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20streamer.jpg)
-    
-    ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/CF.jpg)  
-    
-    ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/DF.jpg)  
+  ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20home2.jpg)
     
     
+  ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20streamer.jpg)
     
+  ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/CF.jpg)  
+    
+  ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/DF.jpg)  
     
     
     
     
-2. We train a word embedding from scratch, using pre-trained models:
-
-    2.1 Wikipedia
     
-    2.2 Twitter
-
-    ### Pre-trained models results:
-    ![](https://github.com/DaDeCar/Sentiment-Analysis-with-NLP/blob/39fcf66daa7c6b4ca67158691b6edaf6e0c6cfb0/images/wiki_twitter_comparisson.jpg)
+    
+    
