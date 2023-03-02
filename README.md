@@ -2,7 +2,7 @@
 
 ### Overview
 
-Built a full project (back – frontend) which simulates a physical electrical equipment called “PMU” - Phasor Measuremet Units. 
+Built a full project (back – frontend) that simulates physical electrical equipment called “PMU” - Phasor Measurement Units. 
 
 This project consists of a PMU simulator written in python that generated random synchrophasors (measurements of current and voltage with a GPS tag) according to the IEEE C37.118.2 standard and streamed it to an IP address using UDP protocol. 
 
@@ -13,16 +13,16 @@ The project meant an improvement for the customers (server’s owner) because th
 
 ### Program workflow:
 
-1. The user enters to the website and configure the requeriments for the syncrophasors (amplitude, phase, frequency, frames per second) and configures a IP adress in which he/she will receive the simulated data. 
+1. The user enters the website and configures the requirements for the synchrophasor (amplitude, phase, frequency, frames per second), and configures an IP address in which he/she will receive the simulated data. 
 
-2. The python program generates simulated syncrophasors introducing amplitude, phase, and frequency noise, and generating a timestamp for each of its.
+2. The python program generates simulated synchrophasor introducing amplitude, phase, and frequency noise, and generating a timestamp for each of them.
 
-3. The program sends via UDP the Configuration Frame (CF) to the destination server, and then starts to send the Data Frames (DF).
+3. The program sends via UDP the Configuration Frame (CF) to the destination server and then starts to send the Data Frames (DF).
 
 
 ### Testing
 
-The PMU Data Streamer was tested using PMU Conection Tester (https://github.com/GridProtectionAlliance/PMUConnectionTester) as a receiving server.
+The PMU Data Streamer was tested using PMU Connection Tester (https://github.com/GridProtectionAlliance/PMUConnectionTester) as a receiving server.
 
 
 ## Screenshots
