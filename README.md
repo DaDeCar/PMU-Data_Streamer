@@ -24,11 +24,12 @@ The project meant an improvement for the customers (server’s owner) because th
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/web%20streamer.jpg)
   
 #### Capture of the Configuration frame:
-     Hexa data frame which configures PMU 
+     Hexa data frame which configurates PMU COnnection Tester program 
     
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/CF.jpg)  
   
 #### Capture of the Data frame:
+    Hexa data frame sended 10-50 or 100 times/s which simulates the digitalized synchrophasor 
     
   ![](https://github.com/DaDeCar/PMU-Data_Streamer/blob/74bb5a05e0f81c459a29f1781ee5f544423ced3d/images/DF.jpg)  
     
